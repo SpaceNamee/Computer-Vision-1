@@ -75,6 +75,5 @@ for i, set_num in enumerate([train_num, val_num]):
             shutil.copy(txt_path, os.path.join(new_txt_path, txt_fn))
 
 
-
         img_file_list.remove(img_path)
 
